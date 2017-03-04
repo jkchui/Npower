@@ -1,0 +1,133 @@
+body {
+  padding: 0;
+  margin: 0;
+  background: #717070;
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(45deg, #160a0a 0%, #EAE0D5 100%);
+}
+
+.header {
+    position: relative;
+    overflow: hidden;
+    padding: 0;
+	margin: 0;
+}
+.header h1 {
+    padding: 50px;
+    position: relative;
+    z-index: 1;
+} 
+.header img{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vw;
+    opacity: 0.8;
+}
+
+#background{
+	z-index: 0;
+}
+
+#face{
+	z-index: 100;
+}
+
+h1 {
+  color: #ffc312;
+  font-family: 'Covered By Your Grace', sans-serif;
+  font-size: 80px;
+  line-height: 200px;
+  margin: 0;
+  position: relative;
+  text-align: center;
+  top: 20%;
+}
+
+p{
+	padding: 100px;
+	color:white;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+.portfolio img{
+	width:50vw;
+}
+
+
+.forms input {
+    width: 100%;
+    display
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+.forms textarea {
+    width: 100%;
+    height: 150px;
+    padding: auto;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+    margin:auto;
+}
+
+/* if i want a vertical nav bar
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    height:100%;
+    position:fixed;
+    overflow:auto;
+}
+
+li a {
+    display: block;
+    color:white;
+    padding: 8px 16px;
+    width: 100px;
+}
+
+li a:hover {
+    background-color: #555;
+    color: purple;
+}*/
+
